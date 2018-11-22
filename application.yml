@@ -13,7 +13,7 @@ security:
     enabled: true   # 启用安全认证处理
   user:
     name: edmindev     # 用户名
-    password: housh  # 密码
+    password: a1f99d830e8df90284e62164ef5a360e300e3e1b6e86c489590e4c925afc73f5  # 密码
 
 spring:
   profiles: dev
@@ -41,7 +41,7 @@ security:
     password: housh  # 密码
 
 spring:
-  profiles: edminbeta
+  profiles: beta
   application:
     name: microcloud-config-eureka-client
 eureka: 
